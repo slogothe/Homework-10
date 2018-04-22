@@ -2,7 +2,7 @@ library(shiny)
 library(tidyverse)
 library(tidycensus)
 source("apikey.R")
-census_api_key(key.file)
+census_api_key(api.key)
 
 states<- acs::fips.state$STUSAB
 
